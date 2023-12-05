@@ -1,0 +1,10 @@
+{
+  "name": "devblog.one",
+  "version": "1.0.0",
+  "description": "static site generation stack for the devblog.one website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeffrey \"DeCentN2Madness\" Hales",
+  "license": "MIT"
+}
