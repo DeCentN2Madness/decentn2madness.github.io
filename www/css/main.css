@@ -1,0 +1,27 @@
+:root {
+	--color: #b5a593;
+	--background: #192323;
+	--link-color: #a5b593;
+	--link-hover-color: #8595a3;
+}
+
+body {
+	background: var(--background);
+	color: var(--color);
+	font-family: monospace;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+
+	&:hover {
+		color: var(--link-hover-color);
+		text-decoration: underline;
+	}
+}
