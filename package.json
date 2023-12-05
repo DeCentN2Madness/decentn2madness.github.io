@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "static site generation stack for the devblog.one website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx eleventy",
+    "start": "npx eleventy --serve"
   },
   "author": "Jeffrey \"DeCentN2Madness\" Hales",
   "license": "MIT",
