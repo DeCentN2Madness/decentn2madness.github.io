@@ -1,8 +1,9 @@
+const lightningCSS = require("@11tyrocks/eleventy-plugin-lightningcss");
+
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("./src/css/");
-	eleventyConfig.addWatchTarget("./src/css/");
 	eleventyConfig.addPassthroughCopy("./src/.htaccess");
 	eleventyConfig.addPassthroughCopy({ "./src/CNAME": "/" });
+	eleventyConfig.addPlugin(lightningCSS);
   return {
     dir: {
       input: "src",
